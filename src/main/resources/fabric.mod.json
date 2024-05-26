@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "food-update",
+	"version": "${version}",
+	"name": "Food Update",
+	"description": "This is a Food Update! The biggest for now!",
+	"authors": [
+		"Simple Programmr"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/food-update/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.simpleprogrammr.foodupdate.FoodUpdate"
+		],
+		"client": [
+			"com.simpleprogrammr.foodupdate.FoodUpdateClient"
+		],
+		"fabric-datagen": [
+			"com.simpleprogrammr.foodupdate.FoodUpdateDataGenerator"
+		]
+	},
+	"mixins": [
+		"food-update.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
