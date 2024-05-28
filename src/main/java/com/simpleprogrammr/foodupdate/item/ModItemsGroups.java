@@ -1,6 +1,7 @@
 package com.simpleprogrammr.foodupdate.item;
 
 import com.simpleprogrammr.foodupdate.FoodUpdate;
+import com.simpleprogrammr.foodupdate.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,12 +15,19 @@ public class ModItemsGroups {
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(FoodUpdate.MOD_ID,"ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() ->  new ItemStack(ModItems.RUBY)).entries(((displayContext, entries) -> {
+
+                        //Adding Items Space
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+
+                        //Adding Blocks Space
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     })).build());
 
     public static void registerItemGroups(){
         FoodUpdate.LOGGER.info("Registering Item Groups for "+ FoodUpdate.MOD_ID);
+
     }
 }

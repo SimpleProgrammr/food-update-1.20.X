@@ -1,5 +1,6 @@
 package com.simpleprogrammr.foodupdate;
 
+import com.simpleprogrammr.foodupdate.block.ModBlocks;
 import com.simpleprogrammr.foodupdate.item.ModItems;
 import com.simpleprogrammr.foodupdate.item.ModItemsGroups;
 import net.fabricmc.api.ModInitializer;
@@ -13,8 +14,10 @@ public class FoodUpdate implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Initializing {0}"+MOD_ID);
 		ModItemsGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

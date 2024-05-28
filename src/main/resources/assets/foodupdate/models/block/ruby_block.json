@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "foodupdate:block/ruby_block"
+
+  }
+}
