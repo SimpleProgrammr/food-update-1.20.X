@@ -18,6 +18,7 @@ public class FoodUpdate implements ModInitializer {
 		ModItemsGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+
 		ModBlocks.registerModBlocks();
 	}
 }

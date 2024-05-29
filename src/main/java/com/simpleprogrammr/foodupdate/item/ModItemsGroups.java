@@ -15,7 +15,6 @@ public class ModItemsGroups {
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(FoodUpdate.MOD_ID,"ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() ->  new ItemStack(ModItems.RUBY)).entries(((displayContext, entries) -> {
-
                         //Adding Items Space
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
@@ -23,6 +22,10 @@ public class ModItemsGroups {
                         //Adding Blocks Space
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
+                        //Adding Ores
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
                     })).build());
 
