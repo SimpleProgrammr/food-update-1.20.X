@@ -1,4 +1,4 @@
-package com.simpleprogrammr.foodupdate.mixin;
+package com.foodupdate.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

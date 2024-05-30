@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    },
+    "+": {
+      "item": "minecraft:end_rod"
+    },
+    "$": {
+      "item": "foodupdate:ruby"
+    }
+  },
+
+  "pattern": [
+    "+  ",
+    " +$",
+    "  #"
+  ],
+
+  "result": {
+    "item": "foodupdate:metal_detector"
+  }
+}

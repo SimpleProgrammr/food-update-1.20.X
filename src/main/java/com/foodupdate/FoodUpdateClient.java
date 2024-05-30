@@ -1,4 +1,4 @@
-package com.simpleprogrammr.foodupdate;
+package com.foodupdate;
 
 import net.fabricmc.api.ClientModInitializer;
 

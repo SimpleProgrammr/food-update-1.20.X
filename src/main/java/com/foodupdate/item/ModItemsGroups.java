@@ -1,7 +1,7 @@
-package com.simpleprogrammr.foodupdate.item;
+package com.foodupdate.item;
 
-import com.simpleprogrammr.foodupdate.FoodUpdate;
-import com.simpleprogrammr.foodupdate.block.ModBlocks;
+import com.foodupdate.FoodUpdate;
+import com.foodupdate.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

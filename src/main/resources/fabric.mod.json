@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "food-update",
+	"id": "foodupdate",
 	"version": "${version}",
 	"name": "Food Update",
 	"description": "This is a Food Update! The biggest for now!",
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/food-update/icon.png",
+	"icon": "assets/foodupdate/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.simpleprogrammr.foodupdate.FoodUpdate"
+			"com.foodupdate.FoodUpdate"
 		],
 		"client": [
-			"com.simpleprogrammr.foodupdate.FoodUpdateClient"
+			"com.foodupdate.FoodUpdateClient"
 		],
 		"fabric-datagen": [
-			"com.simpleprogrammr.foodupdate.FoodUpdateDataGenerator"
+			"com.foodupdate.FoodUpdateDataGenerator"
 		]
 	},
 	"mixins": [

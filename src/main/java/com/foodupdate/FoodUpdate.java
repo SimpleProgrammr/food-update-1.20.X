@@ -1,8 +1,8 @@
-package com.simpleprogrammr.foodupdate;
+package com.foodupdate;
 
-import com.simpleprogrammr.foodupdate.block.ModBlocks;
-import com.simpleprogrammr.foodupdate.item.ModItems;
-import com.simpleprogrammr.foodupdate.item.ModItemsGroups;
+import com.foodupdate.block.ModBlocks;
+import com.foodupdate.item.ModItems;
+import com.foodupdate.item.ModItemsGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -14,7 +14,8 @@ public class FoodUpdate implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing {0}"+MOD_ID);
+		LOGGER.info("Initializing "+ MOD_ID);
+
 		ModItemsGroups.registerItemGroups();
 
 		ModItems.registerModItems();

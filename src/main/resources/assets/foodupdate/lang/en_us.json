@@ -1,11 +1,15 @@
 {
+  "itemgroup.ruby": "Ruby Group",
+
   "item.foodupdate.ruby": "Ruby",
   "item.foodupdate.raw_ruby": "Raw Ruby",
+
+  "item.foodupdate.metal_detector": "Metal Detector",
 
   "block.foodupdate.ruby_ore": "Ruby Ore",
   "block.foodupdate.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.foodupdate.ruby_block": "Block of Ruby",
-  "block.foodupdate.raw_ruby_block": "Block of Raw Ruby",
+  "block.foodupdate.raw_ruby_block": "Block of Raw Ruby"
 
-  "itemgroup.ruby": "Ruby Group"
+
 }
