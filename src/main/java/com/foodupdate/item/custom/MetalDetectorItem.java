@@ -24,7 +24,8 @@ public class MetalDetectorItem extends Item {
             PlayerEntity player = context.getPlayer();
             boolean foundBlock = false;
 
-            for (int i = -64; i < clickedBlockPos.getY(); i++) {
+            int yPos = clickedBlockPos.getY();
+            for (int i = 0; i < yPos; i++) {
                 BlockState state = context.getWorld().getBlockState(clickedBlockPos.down(i));
 
                 if (isValuableBlock(state)) {
@@ -47,7 +48,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, PlayerEntity player, Block block) {
-        player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() + " at " + blockPos.getY() + " depth"), false);
+        player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() + " " + ((int)player.getY() - blockPos.getY()) + " below"), false);
     }
 
     private boolean isValuableBlock(BlockState state) {
