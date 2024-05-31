@@ -27,6 +27,9 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
+                        //Adding Special Blocks
+                        entries.add(ModBlocks.SOUND_BLOCK);
+
                     })).build());
 
     public static void registerItemGroups(){

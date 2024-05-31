@@ -2,6 +2,7 @@ package com.foodupdate.block;
 
 import com.foodupdate.FoodUpdate;
 //import net.fabricmc.fabric.api.block.v1.FabricBlock;
+import com.foodupdate.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -26,6 +27,7 @@ public class ModBlocks {
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE).strength(4.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK), UniformIntProvider.create(3, 5)));
 
+    public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
