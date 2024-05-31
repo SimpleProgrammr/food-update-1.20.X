@@ -20,12 +20,16 @@ public class ModItems {
     //Creating Food
     public static final Item TOMATO = registerItem("tomato",new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
 
+    //Creating Custom Fuel
+    public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",new Item(new FabricItemSettings()));
+
     //Creating tools
     public static final Item METAL_DETECTOR = registerItem("metal_detector",new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     private static void addItemToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);
+        entries.add(COAL_BRIQUETTE);
     }
 
     private static void addItemToToolItemGroup(FabricItemGroupEntries entries) {
