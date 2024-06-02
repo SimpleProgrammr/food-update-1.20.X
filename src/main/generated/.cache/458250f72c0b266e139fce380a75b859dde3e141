@@ -1,0 +1,6 @@
+// 1.20.1	2024-06-02T15:54:58.9954616	Food Update/Block Loot Tables
+28e750559c40360a99bd332d904b90436edf70ce data\foodupdate\loot_tables\blocks\ruby_block.json
+c1e3d837889c7c91d775adb61fe226b0b0015800 data\foodupdate\loot_tables\blocks\deepslate_ruby_ore.json
+e85fc809865dd7b50dffbf696a49701332cba387 data\foodupdate\loot_tables\blocks\raw_ruby_block.json
+d36014aaf37374c8c8c0f6933c7f8fe4489648f2 data\foodupdate\loot_tables\blocks\ruby_ore.json
+d5afa3ff3a1e4ec78d29171375af12355eb70c76 data\foodupdate\loot_tables\blocks\sound_block.json

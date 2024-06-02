@@ -1,0 +1,5 @@
+// 1.20.1	2024-06-02T15:54:58.9934595	Food Update/Tags for minecraft:block
+e706c1d43bd140ebfbb417252121b22a8e04b3ab data\minecraft\tags\blocks\needs_iron_tool.json
+fbafb8dfdae0f9b0b84495c89400f434f8676561 data\fabric\tags\blocks\needs_tool_level_4.json
+2e6dccd3fc9d12ed6ab1cae31dd62162586b427e data\minecraft\tags\blocks\mineable\pickaxe.json
+c35ed9506fea09bbd6395b1820e50ed5f9d45aa7 data\foodupdate\tags\blocks\metal_detector_detectable_blocks.json

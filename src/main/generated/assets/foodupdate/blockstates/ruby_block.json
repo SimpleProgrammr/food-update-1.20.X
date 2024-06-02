@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "foodupdate:block/ruby_block"
+    }
+  }
+}

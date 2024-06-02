@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "foodupdate:ruby_block",
+    "foodupdate:raw_ruby_block",
+    "foodupdate:ruby_ore",
+    "foodupdate:deepslate_ruby_ore"
+  ]
+}

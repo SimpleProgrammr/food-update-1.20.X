@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "foodupdate:ruby_ore",
+    "#minecraft:gold_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:diamond_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:redstone_ores"
+  ]
+}

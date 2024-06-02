@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "foodupdate:block/sound_block"
+    }
+  }
+}
