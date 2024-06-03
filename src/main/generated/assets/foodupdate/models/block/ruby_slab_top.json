@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "foodupdate:block/ruby_block",
+    "side": "foodupdate:block/ruby_block",
+    "top": "foodupdate:block/ruby_block"
+  }
+}

@@ -14,14 +14,10 @@ public class ModItemsGroups {
 
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(FoodUpdate.MOD_ID,"ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
-                    .icon(() ->  new ItemStack(ModItems.RUBY)).entries(((displayContext, entries) -> {
+                    .icon(() ->  new ItemStack(ModItems.TOMATO)).entries(((displayContext, entries) -> {
                         //Adding Items Space
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
-
-                        //Adding Blocks Space
-                        entries.add(ModBlocks.RUBY_BLOCK);
-                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                         //Adding Ores
                         entries.add(ModBlocks.RUBY_ORE);
@@ -29,6 +25,20 @@ public class ModItemsGroups {
 
                         //Adding Special Blocks
                         entries.add(ModBlocks.SOUND_BLOCK);
+
+                        //Adding Building Blocks
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_STAIRS);
+                        entries.add(ModBlocks.RUBY_SLAB);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_FENCE_GATE);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
+
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     })).build());
 

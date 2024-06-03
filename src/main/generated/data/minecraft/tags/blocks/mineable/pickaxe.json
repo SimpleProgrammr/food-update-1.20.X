@@ -5,6 +5,7 @@
     "foodupdate:ruby_block",
     "foodupdate:ruby_ore",
     "foodupdate:deepslate_ruby_ore",
-    "foodupdate:sound_block"
+    "foodupdate:sound_block",
+    "#foodupdate:ruby_building_blocks"
   ]
 }

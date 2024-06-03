@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "foodupdate:block/ruby_door_bottom",
+    "top": "foodupdate:block/ruby_door_top"
+  }
+}

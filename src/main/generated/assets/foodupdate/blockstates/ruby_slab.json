@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "foodupdate:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "foodupdate:block/ruby_block"
+    },
+    "type=top": {
+      "model": "foodupdate:block/ruby_slab_top"
+    }
+  }
+}

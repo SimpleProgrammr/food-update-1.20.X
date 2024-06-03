@@ -1,8 +1,10 @@
 {
-  "itemgroup.ruby": "Ruby Group",
+  "itemgroup.ruby": "Food Update",
 
   "item.foodupdate.ruby": "Ruby",
   "item.foodupdate.raw_ruby": "Raw Ruby",
+
+  "block.foodupdate.sound_block": "Sound Block",
   "item.foodupdate.coal_briquette": "Coal Briquette",
 
   "item.foodupdate.tomato": "Tomato",
@@ -11,9 +13,22 @@
 
   "block.foodupdate.ruby_ore": "Ruby Ore",
   "block.foodupdate.deepslate_ruby_ore": "Deepslate Ruby Ore",
-  "block.foodupdate.ruby_block": "Block of Ruby",
+
   "block.foodupdate.raw_ruby_block": "Block of Raw Ruby",
-  "block.foodupdate.sound_block": "Sound Block",
+
+  "block.foodupdate.ruby_block": "Block of Ruby",
+  "block.foodupdate.ruby_stairs": "Ruby Stairs",
+  "block.foodupdate.ruby_slab": "Ruby Slab",
+
+  "block.foodupdate.ruby_button": "Ruby Button",
+  "block.foodupdate.ruby_pressure_plate": "Ruby Pressure Plate",
+
+  "block.foodupdate.ruby_fence": "Ruby Fence",
+  "block.foodupdate.ruby_fence_gate": "Ruby Fence Gate",
+  "block.foodupdate.ruby_wall": "Ruby Wall",
+
+  "block.foodupdate.ruby_door": "Ruby Door",
+  "block.foodupdate.ruby_trapdoor": "Ruby Trapdoor",
 
   "tooltip.foodupdate.metal_detector.tooltip": "Finds valuables underground!",
   "tooltip.foodupdate.sound_block.tooltip": "Play sound on click!"

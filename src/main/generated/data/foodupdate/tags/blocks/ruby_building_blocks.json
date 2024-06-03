@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "foodupdate:raw_ruby_block",
+    "foodupdate:ruby_block",
+    "foodupdate:ruby_stairs",
+    "foodupdate:ruby_slab",
+    "foodupdate:ruby_button",
+    "foodupdate:ruby_pressure_plate",
+    "foodupdate:ruby_fence",
+    "foodupdate:ruby_fence_gate",
+    "foodupdate:ruby_wall",
+    "foodupdate:ruby_door",
+    "foodupdate:ruby_trapdoor"
+  ]
+}

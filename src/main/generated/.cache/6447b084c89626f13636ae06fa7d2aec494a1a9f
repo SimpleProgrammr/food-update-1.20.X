@@ -1,5 +1,15 @@
-// 1.20.1	2024-06-02T15:54:58.9934595	Food Update/Tags for minecraft:block
-e706c1d43bd140ebfbb417252121b22a8e04b3ab data\minecraft\tags\blocks\needs_iron_tool.json
+// 1.20.1	2024-06-03T20:31:50.2166596	Food Update/Tags for minecraft:block
+94c2422f149c3f725263302c2430d92446ac3376 data\minecraft\tags\blocks\trapdoors.json
+4d3bd20e87a91073e2a46420b3928a4430fac266 data\minecraft\tags\blocks\needs_iron_tool.json
 fbafb8dfdae0f9b0b84495c89400f434f8676561 data\fabric\tags\blocks\needs_tool_level_4.json
-2e6dccd3fc9d12ed6ab1cae31dd62162586b427e data\minecraft\tags\blocks\mineable\pickaxe.json
+f128332d338ad7ae5e01fc733be96b222d7e343f data\minecraft\tags\blocks\walls.json
+e2d4a6fdad9bf4426dce9535004d81385ea3352c data\minecraft\tags\blocks\stairs.json
 c35ed9506fea09bbd6395b1820e50ed5f9d45aa7 data\foodupdate\tags\blocks\metal_detector_detectable_blocks.json
+b7d8c8960b460be6e6ff1546424eab2e7b37782d data\minecraft\tags\blocks\fence_gates.json
+3416852dc18c42bc39334d145bf64dd458b298da data\minecraft\tags\blocks\slabs.json
+f49680468a9947fad96715e0a4c7fc2d5ae56c09 data\minecraft\tags\blocks\fences.json
+c65779ee8e2f144d5c01d6057ae91ebe5e12cc6f data\minecraft\tags\blocks\pressure_plates.json
+9543ff0d8f896144dfaf1d3563fe5439a60dae22 data\minecraft\tags\blocks\mineable\pickaxe.json
+16fabad027320f699a7487dc5399633b00a6c47d data\minecraft\tags\blocks\buttons.json
+6702e7489e99747358987952e43c6dc4a393be86 data\foodupdate\tags\blocks\ruby_building_blocks.json
+4daa428ed5f90280075065510cc410314948907b data\minecraft\tags\blocks\doors.json
