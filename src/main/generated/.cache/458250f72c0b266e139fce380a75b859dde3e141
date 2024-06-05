@@ -1,14 +1,14 @@
-// 1.20.1	2024-06-03T20:31:50.2201799	Food Update/Block Loot Tables
+// 1.20.1	2024-06-05T20:54:36.2734311	Food Update/Block Loot Tables
 c1e3d837889c7c91d775adb61fe226b0b0015800 data\foodupdate\loot_tables\blocks\deepslate_ruby_ore.json
 a5789990eee3c8bbd2e982a375bd28e9b5d9efb0 data\foodupdate\loot_tables\blocks\ruby_wall.json
 ff01ed2f404cc0eaf3f143a61fe5b20441f0656b data\foodupdate\loot_tables\blocks\ruby_trapdoor.json
 78423ec53c1afb0cf155a215e8c8d8423083759c data\foodupdate\loot_tables\blocks\ruby_slab.json
 d36014aaf37374c8c8c0f6933c7f8fe4489648f2 data\foodupdate\loot_tables\blocks\ruby_ore.json
-d5afa3ff3a1e4ec78d29171375af12355eb70c76 data\foodupdate\loot_tables\blocks\sound_block.json
 4a91fd50d2e868a3152a1ee2e1ce1a805c209686 data\foodupdate\loot_tables\blocks\ruby_fence.json
+d5afa3ff3a1e4ec78d29171375af12355eb70c76 data\foodupdate\loot_tables\blocks\sound_block.json
 a6f955ecbe1da682ea573020dcf23d274ecfe6ee data\foodupdate\loot_tables\blocks\ruby_button.json
-28e750559c40360a99bd332d904b90436edf70ce data\foodupdate\loot_tables\blocks\ruby_block.json
 4b2c21053eacf3c29432e702f0932ab951b30701 data\foodupdate\loot_tables\blocks\ruby_pressure_plate.json
+28e750559c40360a99bd332d904b90436edf70ce data\foodupdate\loot_tables\blocks\ruby_block.json
 e85fc809865dd7b50dffbf696a49701332cba387 data\foodupdate\loot_tables\blocks\raw_ruby_block.json
 18d847514f80699b41aa7d8a4f9d1ce5a3f54faf data\foodupdate\loot_tables\blocks\ruby_fence_gate.json
 192747a01267728c0efc70782257fe4b9a668ac6 data\foodupdate\loot_tables\blocks\ruby_stairs.json

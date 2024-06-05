@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -53,5 +54,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.CHARCOAL)
                 .criterion(hasItem(Items.CHARCOAL), conditionsFromItem(Items.CHARCOAL))
                 .offerTo(exporter, new Identifier("coal_briquette_from_charcoal"));
+
+        createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY)).offerTo(exporter);
     }
 }

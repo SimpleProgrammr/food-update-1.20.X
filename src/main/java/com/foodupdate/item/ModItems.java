@@ -27,6 +27,8 @@ public class ModItems {
     //Creating tools
     public static final Item METAL_DETECTOR = registerItem("metal_detector",new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
+
+
     private static void addItemToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(RAW_RUBY);
@@ -63,17 +65,17 @@ public class ModItems {
     }
 
     private static void addItemToBuildingBlocksItemGroup(FabricItemGroupEntries entries) {
-//        entries.add(ModBlocks.RUBY_BLOCK);
-//        entries.add(ModBlocks.RUBY_STAIRS);
-//        entries.add(ModBlocks.RUBY_SLAB);
-//        entries.add(ModBlocks.RUBY_BUTTON);
-//        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
-//        entries.add(ModBlocks.RUBY_FENCE);
-//        entries.add(ModBlocks.RUBY_FENCE);
-//        entries.add(ModBlocks.RUBY_WALL);
-//        entries.add(ModBlocks.RUBY_DOOR);
-//        entries.add(ModBlocks.RUBY_TRAPDOOR);
-//        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+        entries.add(ModBlocks.RUBY_BLOCK);
+        entries.add(ModBlocks.RUBY_STAIRS);
+        entries.add(ModBlocks.RUBY_SLAB);
+        entries.add(ModBlocks.RUBY_BUTTON);
+        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+        entries.add(ModBlocks.RUBY_FENCE);
+        entries.add(ModBlocks.RUBY_FENCE);
+        entries.add(ModBlocks.RUBY_WALL);
+        entries.add(ModBlocks.RUBY_DOOR);
+        entries.add(ModBlocks.RUBY_TRAPDOOR);
+        entries.add(ModBlocks.RAW_RUBY_BLOCK);
     }
 
     private static void addItemToCombatItemGroup(FabricItemGroupEntries entries) {

@@ -13,7 +13,6 @@ public class ModTags {
         public static final TagKey<Block> METAL_DETECTOR_DETECTABLE_BLOCKS = createTag("metal_detector_detectable_blocks");
         public static final TagKey<Block> RUBY_BUILDING_BLOCKS = createTag("ruby_building_blocks");
 
-
         private static TagKey<Block> createTag(String name) {
             return  TagKey.of(RegistryKeys.BLOCK, new Identifier(FoodUpdate.MOD_ID, name));
         }

@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-03T20:31:50.2166596	Food Update/Tags for minecraft:block
+// 1.20.1	2024-06-05T20:54:36.2699091	Food Update/Tags for minecraft:block
 94c2422f149c3f725263302c2430d92446ac3376 data\minecraft\tags\blocks\trapdoors.json
 4d3bd20e87a91073e2a46420b3928a4430fac266 data\minecraft\tags\blocks\needs_iron_tool.json
 fbafb8dfdae0f9b0b84495c89400f434f8676561 data\fabric\tags\blocks\needs_tool_level_4.json
@@ -11,5 +11,5 @@ f49680468a9947fad96715e0a4c7fc2d5ae56c09 data\minecraft\tags\blocks\fences.json
 c65779ee8e2f144d5c01d6057ae91ebe5e12cc6f data\minecraft\tags\blocks\pressure_plates.json
 9543ff0d8f896144dfaf1d3563fe5439a60dae22 data\minecraft\tags\blocks\mineable\pickaxe.json
 16fabad027320f699a7487dc5399633b00a6c47d data\minecraft\tags\blocks\buttons.json
-6702e7489e99747358987952e43c6dc4a393be86 data\foodupdate\tags\blocks\ruby_building_blocks.json
 4daa428ed5f90280075065510cc410314948907b data\minecraft\tags\blocks\doors.json
+6702e7489e99747358987952e43c6dc4a393be86 data\foodupdate\tags\blocks\ruby_building_blocks.json
