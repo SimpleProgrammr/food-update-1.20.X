@@ -48,9 +48,9 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));
 
     public static final Block RUBY_DOOR = registerBlock("ruby_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK),BlockSetType.POLISHED_BLACKSTONE));
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK).nonOpaque(),BlockSetType.POLISHED_BLACKSTONE));
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK),BlockSetType.POLISHED_BLACKSTONE));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK).nonOpaque(),BlockSetType.POLISHED_BLACKSTONE));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
