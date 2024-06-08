@@ -40,6 +40,8 @@ public class ModItemsGroups {
 
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
+                        entries.add(ModItems.RUBY_STAFF);
+
                     })).build());
 
     public static void registerItemGroups(){
