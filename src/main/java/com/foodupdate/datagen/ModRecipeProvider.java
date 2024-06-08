@@ -45,6 +45,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_STAFF, 1)
+                .pattern("  R")
+                .pattern(" I ")
+                .pattern("I  ")
+                .input('I', Items.IRON_BARS)
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RUBY_STAFF)));
+
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COAL_BRIQUETTE, 8)
                 .input(Items.COAL)
                 .criterion(hasItem(Items.COAL), conditionsFromItem(Items.COAL))
