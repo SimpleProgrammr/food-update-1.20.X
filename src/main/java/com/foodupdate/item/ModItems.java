@@ -54,7 +54,6 @@ public class ModItems {
     private static void addItemToToolItemGroup(FabricItemGroupEntries entries) {
         entries.add(METAL_DETECTOR);
         entries.add(RUBY_STAFF);
-        entries.add(RUBY_SWORD);
         entries.add(RUBY_PICKAXE);
         entries.add(RUBY_AXE);
         entries.add(RUBY_SHOVEL);
@@ -101,7 +100,8 @@ public class ModItems {
     }
 
     private static void addItemToCombatItemGroup(FabricItemGroupEntries entries) {
-
+        entries.add(RUBY_SWORD);
+        entries.add(RUBY_AXE);
     }
 
 
