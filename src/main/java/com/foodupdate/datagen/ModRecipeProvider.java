@@ -65,5 +65,74 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier("coal_briquette_from_charcoal"));
 
         createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY)).offerTo(exporter);
+
+        createSimpleSwordRecipe(exporter, RecipeCategory.TOOLS, ModItems.RUBY_SWORD, ModItems.RUBY, Items.STICK);
+        createSimplePickaxeRecipe(exporter, RecipeCategory.TOOLS, ModItems.RUBY_PICKAXE, ModItems.RUBY, Items.STICK);
+        createSimpleAxeRecipe(exporter, RecipeCategory.TOOLS, ModItems.RUBY_AXE, ModItems.RUBY, Items.STICK);
+        createSimpleShovelRecipe(exporter, RecipeCategory.TOOLS, ModItems.RUBY_SHOVEL, ModItems.RUBY, Items.STICK);
+        createSimpleHoeRecipe(exporter, RecipeCategory.TOOLS, ModItems.RUBY_HOE, ModItems.RUBY, Items.STICK);
+
+
+    }
+
+
+    public void createSimpleSwordRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, ItemConvertible outputItem, ItemConvertible mainMaterial, ItemConvertible handleMaterial)
+    {
+        ShapedRecipeJsonBuilder.create(category, outputItem, 1)
+                .pattern(" M ")
+                .pattern(" M ")
+                .pattern(" H ")
+                .input('M', mainMaterial)
+                .input('H', handleMaterial)
+                .criterion(hasItem(mainMaterial),conditionsFromItem(mainMaterial))
+                .offerTo(exporter, new Identifier(getRecipeName(outputItem)));
+    }
+
+    public void createSimplePickaxeRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, ItemConvertible outputItem, ItemConvertible mainMaterial, ItemConvertible handleMaterial)
+    {
+        ShapedRecipeJsonBuilder.create(category, outputItem, 1)
+                .pattern("MMM")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('M', mainMaterial)
+                .input('H', handleMaterial)
+                .criterion(hasItem(mainMaterial),conditionsFromItem(mainMaterial))
+                .offerTo(exporter, new Identifier(getRecipeName(outputItem)));
+    }
+
+    public void createSimpleAxeRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, ItemConvertible outputItem, ItemConvertible mainMaterial, ItemConvertible handleMaterial)
+    {
+        ShapedRecipeJsonBuilder.create(category, outputItem, 1)
+                .pattern(" MM")
+                .pattern(" HM")
+                .pattern(" H ")
+                .input('M', mainMaterial)
+                .input('H', handleMaterial)
+                .criterion(hasItem(mainMaterial),conditionsFromItem(mainMaterial))
+                .offerTo(exporter, new Identifier(getRecipeName(outputItem)));
+    }
+
+    public void createSimpleShovelRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, ItemConvertible outputItem, ItemConvertible mainMaterial, ItemConvertible handleMaterial)
+    {
+        ShapedRecipeJsonBuilder.create(category, outputItem, 1)
+                .pattern(" M ")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('M', mainMaterial)
+                .input('H', handleMaterial)
+                .criterion(hasItem(mainMaterial),conditionsFromItem(mainMaterial))
+                .offerTo(exporter, new Identifier(getRecipeName(outputItem)));
+    }
+
+    public void createSimpleHoeRecipe(Consumer<RecipeJsonProvider> exporter, RecipeCategory category, ItemConvertible outputItem, ItemConvertible mainMaterial, ItemConvertible handleMaterial)
+    {
+        ShapedRecipeJsonBuilder.create(category, outputItem, 1)
+                .pattern(" MM")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('M', mainMaterial)
+                .input('H', handleMaterial)
+                .criterion(hasItem(mainMaterial),conditionsFromItem(mainMaterial))
+                .offerTo(exporter, new Identifier(getRecipeName(outputItem)));
     }
 }

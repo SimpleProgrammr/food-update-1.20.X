@@ -84,7 +84,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_TRAPDOOR);
 
         //Needs Netherite Tool Tag
-        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK,new Identifier("fabric", "needs_tool_level_4")))
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK,new Identifier("fabric", "needs_tool_level_4")));
+
+        //Needs Level 5 (Ruby) Tool Tag
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK,new Identifier("fabric", "needs_tool_level_5")))
                 .add(ModBlocks.SOUND_BLOCK);
     }
 }

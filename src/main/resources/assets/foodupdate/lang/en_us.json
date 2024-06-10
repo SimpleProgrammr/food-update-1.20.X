@@ -12,6 +12,13 @@
   "item.foodupdate.metal_detector": "Metal Detector",
   "item.foodupdate.ruby_staff": "Ruby Staff",
 
+  "item.foodupdate.ruby_sword": "Ruby Sword",
+  "item.foodupdate.ruby_pickaxe": "Ruby Pickaxe",
+  "item.foodupdate.ruby_axe": "Ruby Axe",
+  "item.foodupdate.ruby_shovel": "Ruby Shovel",
+  "item.foodupdate.ruby_hoe": "Ruby hoe",
+
+
   "block.foodupdate.ruby_ore": "Ruby Ore",
   "block.foodupdate.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
