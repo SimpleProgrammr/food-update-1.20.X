@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "R": {
+      "item": "foodupdate:ruby"
+    }
+  },
+  "pattern": [
+    "  R",
+    " I ",
+    "I  "
+  ],
+  "result": {
+    "item": "foodupdate:ruby_staff"
+  },
+  "show_notification": true
+}

@@ -6,8 +6,7 @@ import com.foodupdate.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -15,18 +14,35 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     //Creating Ruby
-    public static final Item RUBY = registerItem("ruby",new Item(new FabricItemSettings()));
-    public static final Item RAW_RUBY = registerItem("raw_ruby",new Item(new FabricItemSettings()));
+    public static final Item RUBY = registerItem("ruby",
+            new Item(new FabricItemSettings()));
+    public static final Item RAW_RUBY = registerItem("raw_ruby",
+            new Item(new FabricItemSettings()));
 
     //Creating Food
-    public static final Item TOMATO = registerItem("tomato",new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO = registerItem("tomato",
+            new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
 
     //Creating Custom Fuel
-    public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",new Item(new FabricItemSettings()));
+    public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
+            new Item(new FabricItemSettings()));
 
     //Creating tools
-    public static final Item METAL_DETECTOR = registerItem("metal_detector",new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item RUBY_STAFF = registerItem("ruby_staff",
+            new Item(new FabricItemSettings().maxCount(1)));
 
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new SwordItem(ModToolMaterial.RUBY, 10, 1.4f, new FabricItemSettings()));
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+            new PickaxeItem(ModToolMaterial.RUBY, 7, 1.2f, new FabricItemSettings()));
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+            new AxeItem(ModToolMaterial.RUBY, 12, 1f, new FabricItemSettings()));
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+            new ShovelItem(ModToolMaterial.RUBY, 7, 1.7f, new FabricItemSettings()));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+            new HoeItem(ModToolMaterial.RUBY, 1, 4f, new FabricItemSettings()));
 
 
     private static void addItemToIngredientsItemGroup(FabricItemGroupEntries entries) {
@@ -37,6 +53,11 @@ public class ModItems {
 
     private static void addItemToToolItemGroup(FabricItemGroupEntries entries) {
         entries.add(METAL_DETECTOR);
+        entries.add(RUBY_STAFF);
+        entries.add(RUBY_PICKAXE);
+        entries.add(RUBY_AXE);
+        entries.add(RUBY_SHOVEL);
+        entries.add(RUBY_HOE);
     }
 
     private static void addItemToFoodItemGroup(FabricItemGroupEntries entries) {
@@ -79,7 +100,8 @@ public class ModItems {
     }
 
     private static void addItemToCombatItemGroup(FabricItemGroupEntries entries) {
-
+        entries.add(RUBY_SWORD);
+        entries.add(RUBY_AXE);
     }
 
 

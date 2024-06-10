@@ -27,7 +27,7 @@ public class ModBlocks {
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_LAPIS_ORE).strength(4.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK), UniformIntProvider.create(3, 5)));
 
-    public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_PLANKS)));
+    public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_BLOCK)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK)));

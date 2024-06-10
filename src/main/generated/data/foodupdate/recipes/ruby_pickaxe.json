@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": {
+      "item": "minecraft:stick"
+    },
+    "M": {
+      "item": "foodupdate:ruby"
+    }
+  },
+  "pattern": [
+    "MMM",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "item": "foodupdate:ruby_pickaxe"
+  },
+  "show_notification": true
+}
