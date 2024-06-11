@@ -1,12 +1,12 @@
-// 1.20.1	2024-06-10T19:37:17.4074887	Food Update/Model Definitions
+// 1.20.1	2024-06-11T10:56:42.1773638	Food Update/Model Definitions
 1a3ce397fedc664d4f360401bb9cfd00bf401ad0 assets\foodupdate\models\block\ruby_trapdoor_bottom.json
 72790799707992d7328f5016a6c78bcb2806f92a assets\foodupdate\blockstates\ruby_button.json
 2f770771c793f6b065e025f0087a03915a78d3aa assets\foodupdate\models\item\ruby_door.json
 d6021854984c9079713ce60eb6c891c0f058237f assets\foodupdate\models\item\ruby_pickaxe.json
 9b30d1277a509af761b82b847fdb3b99983d7bed assets\foodupdate\models\item\ruby_slab.json
 3bd12269ab5e186783b92a6592d401caf480b017 assets\foodupdate\models\block\raw_ruby_block.json
-6df2f7e3b67fd9f8e4b302615a75a0c9e10b2886 assets\foodupdate\models\item\ruby_hoe.json
 449f4daa04131038b3c4e3c95bf9eb71dfab3f80 assets\foodupdate\models\block\ruby_stairs_inner.json
+6df2f7e3b67fd9f8e4b302615a75a0c9e10b2886 assets\foodupdate\models\item\ruby_hoe.json
 bc2c2cd5a04f8b2574af501b7661e5b55ca0409a assets\foodupdate\models\block\ruby_slab_top.json
 0edf106198f1a32f1e89fe7df75a059af65cbd4b assets\foodupdate\models\block\ruby_door_top_right.json
 27139ac703a22ea061494e23e696088fad9aa4b2 assets\foodupdate\models\item\tomato.json
@@ -37,8 +37,8 @@ f0eb83de2165c78d0d44525140aa97fdcbf169da assets\foodupdate\models\item\coal_briq
 830f2001a582af94803d03d84868423732128143 assets\foodupdate\models\block\ruby_button.json
 7d70c971fa28cf595246bea1eafea1744024e3f5 assets\foodupdate\models\block\ruby_stairs_outer.json
 130a1abdca472cc1d891b3be12fb27b143240ec1 assets\foodupdate\models\block\ruby_button_inventory.json
-a14b669385537bb0468c345e730aa84e3c1c0d82 assets\foodupdate\models\item\ruby_ore.json
 4541cce49c1e709e2097bebd9b9afb9537b498f3 assets\foodupdate\models\block\ruby_wall_side.json
+a14b669385537bb0468c345e730aa84e3c1c0d82 assets\foodupdate\models\item\ruby_ore.json
 e565422f5525b549a265b634e3982784cd31a958 assets\foodupdate\models\block\ruby_fence_post.json
 271f0c8ec378dab2ee125a061d1001ef6769a335 assets\foodupdate\models\item\ruby_button.json
 1a8df5dd5c30e89b4ec27aba321086c5b749714e assets\foodupdate\models\item\metal_detector.json

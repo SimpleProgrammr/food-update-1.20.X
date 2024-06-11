@@ -33,17 +33,17 @@ public class ModItems {
     public static final Item RUBY_STAFF = registerItem("ruby_staff",
             new Item(new FabricItemSettings().maxCount(1)));
 
-    public static final Item RUBY_SWORD = registerItem("ruby_sword",
-            new SwordItem(ModToolMaterial.RUBY, 10, 1.4f, new FabricItemSettings()));
-    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
-            new PickaxeItem(ModToolMaterial.RUBY, 7, 1.2f, new FabricItemSettings()));
-    public static final Item RUBY_AXE = registerItem("ruby_axe",
-            new AxeItem(ModToolMaterial.RUBY, 12, 1f, new FabricItemSettings()));
-    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
-            new ShovelItem(ModToolMaterial.RUBY, 7, 1.7f, new FabricItemSettings()));
-    public static final Item RUBY_HOE = registerItem("ruby_hoe",
-            new HoeItem(ModToolMaterial.RUBY, 1, 4f, new FabricItemSettings()));
 
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+            new ShovelItem(ModToolMaterial.RUBY, 2.5f, -3f, new FabricItemSettings()));
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+            new PickaxeItem(ModToolMaterial.RUBY, 2, -2.8f, new FabricItemSettings()));
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+            new AxeItem(ModToolMaterial.RUBY, 6, -3.0f, new FabricItemSettings()));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+            new HoeItem(ModToolMaterial.RUBY, -4, 1f, new FabricItemSettings()));
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new SwordItem(ModToolMaterial.RUBY, 4, -2.4f, new FabricItemSettings()));
 
     private static void addItemToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
@@ -54,9 +54,9 @@ public class ModItems {
     private static void addItemToToolItemGroup(FabricItemGroupEntries entries) {
         entries.add(METAL_DETECTOR);
         entries.add(RUBY_STAFF);
+        entries.add(RUBY_SHOVEL);
         entries.add(RUBY_PICKAXE);
         entries.add(RUBY_AXE);
-        entries.add(RUBY_SHOVEL);
         entries.add(RUBY_HOE);
     }
 
