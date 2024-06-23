@@ -1,7 +1,6 @@
 package com.foodupdate.block;
 
 import com.foodupdate.FoodUpdate;
-//import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import com.foodupdate.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -63,7 +62,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        FoodUpdate.LOGGER.info("Registering Mod Blocks for" + FoodUpdate.MOD_ID);
+        FoodUpdate.LOGGER.info("Registering Mod Blocks for " + FoodUpdate.MOD_ID);
 
     }
 }
