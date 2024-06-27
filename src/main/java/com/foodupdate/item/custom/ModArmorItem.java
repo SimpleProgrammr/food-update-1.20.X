@@ -17,7 +17,7 @@ public class ModArmorItem extends ArmorItem {
 
     public static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
-                    .put(ModArmorMaterials.RUBY, new StatusEffectInstance(StatusEffects.NIGHT_VISION, 200, 1, false, false, true)).build();
+                    .put(ModArmorMaterials.RUBY, new StatusEffectInstance(StatusEffects.ABSORPTION, 400, 1, false, false, true)).build();
 
     public ModArmorItem(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
