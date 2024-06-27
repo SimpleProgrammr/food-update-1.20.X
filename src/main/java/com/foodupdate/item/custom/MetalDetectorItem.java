@@ -1,9 +1,7 @@
 package com.foodupdate.item.custom;
 
 import com.foodupdate.util.ModTags;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -32,11 +30,11 @@ public class MetalDetectorItem extends Item {
             boolean foundBlock = false;
 
             int yPos = clickedBlockPos.getY();
-            for (int i = 0; i < yPos; i++) {
+            for (int i = 0; i < 64 + yPos; i++) {
                 BlockState state = context.getWorld().getBlockState(clickedBlockPos.down(i));
 
                 if (isValuableBlock(state)) {
-                    outputValuableCoordinates(clickedBlockPos.down(i), player, state.getBlock());
+                    outputValuableCoordinates(player, i);
                     foundBlock = true;
 
                     break;
@@ -54,8 +52,8 @@ public class MetalDetectorItem extends Item {
         return ActionResult.SUCCESS;
     }
 
-    private void outputValuableCoordinates(BlockPos blockPos, PlayerEntity player, Block block) {
-        player.sendMessage(Text.literal("Found " + block.asItem().getName().getString() + " " + ((int)player.getY() - blockPos.getY()) + " below"), false);
+    private void outputValuableCoordinates(PlayerEntity player, int depth) {
+        player.sendMessage(Text.literal("Found something " + depth + " below"), false);
     }
 
     private boolean isValuableBlock(BlockState state) {
