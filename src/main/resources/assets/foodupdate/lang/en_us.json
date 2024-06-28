@@ -8,6 +8,7 @@
   "item.foodupdate.coal_briquette": "Coal Briquette",
 
   "item.foodupdate.tomato": "Tomato",
+  "item.foodupdate.tomato_seeds": "Tomato Seeds",
 
   "item.foodupdate.metal_detector": "Metal Detector",
   "item.foodupdate.ruby_staff": "Ruby Staff",
@@ -17,6 +18,10 @@
   "item.foodupdate.ruby_axe": "Ruby Axe",
   "item.foodupdate.ruby_shovel": "Ruby Shovel",
   "item.foodupdate.ruby_hoe": "Ruby hoe",
+  "item.foodupdate.ruby_helmet": "Ruby Helmet",
+  "item.foodupdate.ruby_chestplate": "Ruby Chestplate",
+  "item.foodupdate.ruby_leggings": "Ruby Leggings",
+  "item.foodupdate.ruby_boots": "Ruby Boots",
 
 
   "block.foodupdate.ruby_ore": "Ruby Ore",
@@ -39,5 +44,9 @@
   "block.foodupdate.ruby_trapdoor": "Ruby Trapdoor",
 
   "tooltip.foodupdate.metal_detector.tooltip": "Finds valuables underground!",
-  "tooltip.foodupdate.sound_block.tooltip": "Play sound on click!"
+  "tooltip.foodupdate.sound_block.tooltip": "Play sound on click!",
+  "advancement.get_mod_advancement": "Food Update",
+  "advancement.get_mod_advancement_description": "Thank you for getting our update!",
+  "advancement.get_tomato_advancement": "Get Tomato",
+  "advancement.get_tomato_advancement_description": "First step to food kingdom!"
 }

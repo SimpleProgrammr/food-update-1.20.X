@@ -3,6 +3,7 @@ package com.foodupdate.item;
 import com.foodupdate.FoodUpdate;
 import com.foodupdate.block.ModBlocks;
 import com.foodupdate.item.custom.MetalDetectorItem;
+import com.foodupdate.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -18,10 +19,6 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby",
             new Item(new FabricItemSettings()));
-
-    //Creating Food
-    public static final Item TOMATO = registerItem("tomato",
-            new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
 
     //Creating Custom Fuel
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
@@ -44,6 +41,23 @@ public class ModItems {
             new HoeItem(ModToolMaterial.RUBY, -4, 1f, new FabricItemSettings()));
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
             new SwordItem(ModToolMaterial.RUBY, 4, -2.4f, new FabricItemSettings()));
+
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    //Creating Food
+    public static final Item TOMATO = registerItem("tomato",
+            new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+
+
 
     private static void addItemToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

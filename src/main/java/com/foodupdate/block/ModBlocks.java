@@ -1,8 +1,8 @@
 package com.foodupdate.block;
 
 import com.foodupdate.FoodUpdate;
-//import net.fabricmc.fabric.api.block.v1.FabricBlock;
 import com.foodupdate.block.custom.SoundBlock;
+import com.foodupdate.block.custom.TomatoCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -52,6 +52,12 @@ public class ModBlocks {
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.EMERALD_BLOCK).nonOpaque(),BlockSetType.POLISHED_BLACKSTONE));
 
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(FoodUpdate.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+
+
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, new Identifier(FoodUpdate.MOD_ID, name), block);
@@ -63,7 +69,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        FoodUpdate.LOGGER.info("Registering Mod Blocks for" + FoodUpdate.MOD_ID);
+        FoodUpdate.LOGGER.info("Registering Mod Blocks for " + FoodUpdate.MOD_ID);
 
     }
 }

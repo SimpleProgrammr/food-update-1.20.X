@@ -48,6 +48,14 @@ public class ModItemsGroups {
                         entries.add(ModItems.RUBY_HOE);
                         entries.add(ModItems.RUBY_SWORD);
 
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
+
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.TOMATO_SEEDS);
+
                     })).build());
 
     public static void registerItemGroups(){
