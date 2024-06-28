@@ -20,10 +20,6 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItem("raw_ruby",
             new Item(new FabricItemSettings()));
 
-    //Creating Food
-    public static final Item TOMATO = registerItem("tomato",
-            new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
-
     //Creating Custom Fuel
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette",
             new Item(new FabricItemSettings()));
@@ -54,6 +50,14 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    //Creating Food
+    public static final Item TOMATO = registerItem("tomato",
+            new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+
+
 
     private static void addItemToIngredientsItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

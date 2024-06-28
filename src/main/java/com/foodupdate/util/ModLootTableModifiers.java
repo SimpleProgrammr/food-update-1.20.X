@@ -30,6 +30,17 @@ public class ModLootTableModifiers {
     private static final Identifier SUS_SAND_ID =
             new Identifier("minecraft", "archaeology/desert_pyramid");
 
+    private static final Identifier PLAINS_VILLAGE_HOUSE_ID =
+            new Identifier("minecraft", "chests/village/village_plains_house");
+
+    private static final Identifier WOODLAND_MANSION_ID =
+            new Identifier("minecraft", "chests/woodland_mansion");
+
+    private static final Identifier SHIPWRECK_SUPPLY_ID =
+            new Identifier("minecraft", "chests/shipwreck_supply");
+
+
+
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
             if (JUNGLE_TEMPLE_ID.equals(id)) {
@@ -58,6 +69,51 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(0.2f)) // 0.2f == 20%
                         .with(ItemEntry.builder(ModItems.COAL_BRIQUETTE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 4.0f)).build()); // Number of Items found in structure
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (PLAINS_VILLAGE_HOUSE_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.9f))
+                        .with(ItemEntry.builder(ModItems.TOMATO_SEEDS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(3.0f, 5.0f)).build())
+
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.8f))
+                        .with(ItemEntry.builder(ModItems.TOMATO))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f))); // Number of Items found in structure
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (WOODLAND_MANSION_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.9f))
+                        .with(ItemEntry.builder(ModItems.TOMATO_SEEDS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 5.0f)).build())
+
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.6f))
+                        .with(ItemEntry.builder(ModItems.TOMATO))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 4.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (SHIPWRECK_SUPPLY_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.8f))
+                        .with(ItemEntry.builder(ModItems.TOMATO_SEEDS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 5.0f)).build())
+
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.4f))
+                        .with(ItemEntry.builder(ModItems.TOMATO))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }

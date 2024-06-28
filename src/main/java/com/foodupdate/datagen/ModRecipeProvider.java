@@ -64,6 +64,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.CHARCOAL), conditionsFromItem(Items.CHARCOAL))
                 .offerTo(exporter, new Identifier("coal_briquette_from_charcoal"));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TOMATO_SEEDS, 9)
+                .input(ModItems.TOMATO)
+                .criterion(hasItem(ModItems.TOMATO), conditionsFromItem(ModItems.TOMATO))
+                .offerTo(exporter, new Identifier("tomato_to_tomato_seeds"));
+
         createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY)).offerTo(exporter);
 
         createSimpleSwordRecipe(exporter, RecipeCategory.TOOLS, ModItems.RUBY_SWORD, ModItems.RUBY, Items.STICK);
