@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "spawned": {
+      "conditions": {},
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancement.get_mod_advancement_description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.get_mod_advancement"
+    }
+  },
+  "requirements": [
+    [
+      "spawned"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -45,6 +45,8 @@
 
   "tooltip.foodupdate.metal_detector.tooltip": "Finds valuables underground!",
   "tooltip.foodupdate.sound_block.tooltip": "Play sound on click!",
-  "advancement.get_mod_advancement": "",
-  "advancement.get_mod_advancement_description": ""
+  "advancement.get_mod_advancement": "Food Update",
+  "advancement.get_mod_advancement_description": "Thank you for getting our update!",
+  "advancement.get_tomato_advancement": "Get Tomato",
+  "advancement.get_tomato_advancement_description": "First step to food kingdom!"
 }

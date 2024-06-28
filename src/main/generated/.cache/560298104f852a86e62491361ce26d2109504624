@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-28T01:58:21.5432168	Food Update/Model Definitions
+// 1.20.1	2024-06-29T00:02:25.6151222	Food Update/Model Definitions
 72790799707992d7328f5016a6c78bcb2806f92a assets\foodupdate\blockstates\ruby_button.json
 dd2023670829cbdfb1c5c6b5df2dff80646e8b13 assets\foodupdate\models\block\tomato_crop_stage0.json
 9b30d1277a509af761b82b847fdb3b99983d7bed assets\foodupdate\models\item\ruby_slab.json
@@ -69,10 +69,10 @@ bc2c2cd5a04f8b2574af501b7661e5b55ca0409a assets\foodupdate\models\block\ruby_sla
 0edf106198f1a32f1e89fe7df75a059af65cbd4b assets\foodupdate\models\block\ruby_door_top_right.json
 27139ac703a22ea061494e23e696088fad9aa4b2 assets\foodupdate\models\item\tomato.json
 408f36aa446a5ac37d86c58cef4097cc63267570 assets\foodupdate\models\item\raw_ruby_block.json
-9eced03956dd3cd4dba13809a6a0a1b76028b8ad assets\foodupdate\models\item\ruby_helmet_netherite_trim.json
 788f37cb3facf249bddc97d2e8f462fba40d24b0 assets\foodupdate\models\block\ruby_block.json
-81f2cd13018e00bfed15d0a90c81958899b282c9 assets\foodupdate\models\block\ruby_wall_side_tall.json
+9eced03956dd3cd4dba13809a6a0a1b76028b8ad assets\foodupdate\models\item\ruby_helmet_netherite_trim.json
 971c327e81a4320c5ca0d612ba1d291c0cb003ad assets\foodupdate\models\item\ruby_leggings_copper_trim.json
+81f2cd13018e00bfed15d0a90c81958899b282c9 assets\foodupdate\models\block\ruby_wall_side_tall.json
 ce05f921502eeb788eca2ac083c15a7e4a7c012f assets\foodupdate\models\item\ruby_helmet_redstone_trim.json
 9d832fcd8e0a700e1fd6514ea26b2f3e6582c11a assets\foodupdate\models\item\ruby_chestplate_amethyst_trim.json
 8985245b1c20c613e23d8a33aa4db38f5c9b0987 assets\foodupdate\models\item\ruby_helmet_emerald_trim.json

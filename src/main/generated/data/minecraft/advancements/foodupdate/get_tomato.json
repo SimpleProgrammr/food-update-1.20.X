@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:foodupdate/get_mod",
+  "criteria": {
+    "get_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "foodupdate:tomato"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancement.get_tomato_advancement_description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "foodupdate:tomato"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.get_tomato_advancement"
+    }
+  },
+  "requirements": [
+    [
+      "get_tomato"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
