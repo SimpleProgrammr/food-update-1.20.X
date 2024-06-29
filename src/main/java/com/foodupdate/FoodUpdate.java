@@ -3,6 +3,7 @@ package com.foodupdate;
 import com.foodupdate.block.ModBlocks;
 import com.foodupdate.item.ModItems;
 import com.foodupdate.item.ModItemsGroups;
+import com.foodupdate.util.ModCustomTrades;
 import com.foodupdate.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -24,6 +25,8 @@ public class FoodUpdate implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModLootTableModifiers.modifyLootTables();
+
+		ModCustomTrades.registerCustomTrades();
 
 		//Adding custom fuel
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
