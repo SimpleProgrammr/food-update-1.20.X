@@ -36,7 +36,7 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.RUBY, 6),
                             new ItemStack(ModItems.TOMATO_SEEDS, 10),
                             4,
-                            10,
+                            6,
                             0.1f
                     ));
 
@@ -44,7 +44,7 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.RUBY, 6),
                             new ItemStack(ModItems.CORN_SEEDS, 10),
                             4,
-                            10,
+                            6,
                             0.05f
                     ));
                 });
