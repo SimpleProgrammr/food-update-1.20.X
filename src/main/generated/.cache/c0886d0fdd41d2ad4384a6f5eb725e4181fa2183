@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-29T00:02:25.6131221	Food Update/Recipes
+// 1.20.1	2024-06-29T01:26:06.472486	Food Update/Recipes
 1bbd44ae095d2f4e7fceb86902b5ff3cc21f3417 data\foodupdate\recipes\ruby_from_blasting_raw_ruby.json
 9a4763486e516afb035d819719c9a693c6ea4c60 data\foodupdate\advancements\recipes\tools\metal_detector.json
 4840f8244d52970269e8c2a9837b52806a80f0ee data\foodupdate\advancements\recipes\misc\ruby_from_blasting_deepslate_ruby_ore.json
@@ -19,6 +19,7 @@ d0fae6ff79972da735d5ed15d9fdd869b48e439f data\foodupdate\advancements\recipes\mi
 347fb0ba1b2fb828c3e2dd9cfa1a11be7edd963f data\foodupdate\recipes\ruby_door.json
 446e352cfcb7d8f179e1ece54d5dae2c4b720d7c data\foodupdate\recipes\ruby_sword.json
 f3235573762c95a933c0807c877c760920cc0e40 data\foodupdate\recipes\ruby_staff.json
+f50f3ffab5ea0a8b4e6eee6f0341d0c35bd5ef0f data\foodupdate\advancements\recipes\misc\corn_to_corn_seeds.json
 3087cd3d45cc831729aeb64f590e6b6b113d8997 data\foodupdate\advancements\recipes\building_blocks\ruby_block.json
 befee9baa0222b8ed3493e2aa470226d2f179904 data\foodupdate\advancements\recipes\misc\ruby_from_blasting_ruby_ore.json
 1cc151e526bdcadd2130b39408d6679503dcf361 data\foodupdate\advancements\recipes\misc\coal_briquette_from_coal.json
@@ -38,6 +39,7 @@ a75cd32f234d2716eac4975dc2d340ad59af36c0 data\foodupdate\recipes\ruby_shovel.jso
 f45817e21a4ccfc2070639b49aca39cbb30d8e59 data\foodupdate\recipes\ruby_from_blasting_deepslate_ruby_ore.json
 8f86a1bbcf3dbf2ae75e0c6576fc268649180f05 data\foodupdate\recipes\ruby_from_smelting_ruby_ore.json
 c3a52475e6b919d46b5d7d0f58e72bb4474a447d data\foodupdate\advancements\recipes\misc\ruby_from_blasting_raw_ruby.json
+d7b9ff5b1408b445430a5b1182b59ded676aacb9 data\foodupdate\recipes\corn_to_corn_seeds.json
 b949d668ef399b3861832862f9ed611a976b22a9 data\foodupdate\recipes\raw_ruby.json
 cedafdf437b7f0b948eac0ac01c1f35e40ddc152 data\foodupdate\recipes\metal_detector.json
 c739b78d6e35f3e4651ca8071212acaf90309d6d data\foodupdate\advancements\recipes\building_blocks\ruby.json

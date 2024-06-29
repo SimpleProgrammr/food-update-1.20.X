@@ -9,6 +9,8 @@
 
   "item.foodupdate.tomato": "Tomato",
   "item.foodupdate.tomato_seeds": "Tomato Seeds",
+  "item.foodupdate.corn": "Corn",
+  "item.foodupdate.corn_seeds": "Corn Seeds",
 
   "item.foodupdate.metal_detector": "Metal Detector",
   "item.foodupdate.ruby_staff": "Ruby Staff",
@@ -45,8 +47,11 @@
 
   "tooltip.foodupdate.metal_detector.tooltip": "Finds valuables underground!",
   "tooltip.foodupdate.sound_block.tooltip": "Play sound on click!",
+
   "advancement.get_mod_advancement": "Food Update",
   "advancement.get_mod_advancement_description": "Thank you for getting our update!",
-  "advancement.get_tomato_advancement": "Get Tomato",
-  "advancement.get_tomato_advancement_description": "First step to food kingdom!"
+  "advancement.get_tomato_advancement": "First Steps",
+  "advancement.get_tomato_advancement_description": "Get your first tomato!",
+  "advancement.get_corn_advancement": "High Crops",
+  "advancement.get_corn_advancement_description": "Get yourself a corn!"
 }

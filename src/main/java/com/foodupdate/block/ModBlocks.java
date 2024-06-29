@@ -1,13 +1,13 @@
 package com.foodupdate.block;
 
 import com.foodupdate.FoodUpdate;
+import com.foodupdate.block.custom.CornCropBlock;
 import com.foodupdate.block.custom.SoundBlock;
 import com.foodupdate.block.custom.TomatoCropBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -54,6 +54,8 @@ public class ModBlocks {
 
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(FoodUpdate.MOD_ID, "tomato_crop"),
             new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(FoodUpdate.MOD_ID, "corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
 
 
@@ -63,9 +65,9 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, new Identifier(FoodUpdate.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block) {
-    return Registry.register(Registries.ITEM, new Identifier(FoodUpdate.MOD_ID, name),
-            new BlockItem(block,new FabricItemSettings()));
+    private static void registerBlockItem(String name, Block block) {
+        Registry.register(Registries.ITEM, new Identifier(FoodUpdate.MOD_ID, name),
+                new BlockItem(block, new FabricItemSettings()));
     }
 
     public static void registerModBlocks() {

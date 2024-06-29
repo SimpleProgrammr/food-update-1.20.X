@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemsGroups {
 
+    @SuppressWarnings("unused")
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(FoodUpdate.MOD_ID,"ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() ->  new ItemStack(ModItems.TOMATO)).entries(((displayContext, entries) -> {
@@ -55,6 +56,9 @@ public class ModItemsGroups {
 
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
+
+                        entries.add(ModItems.CORN);
+                        entries.add(ModItems.CORN_SEEDS);
 
                     })).build());
 
