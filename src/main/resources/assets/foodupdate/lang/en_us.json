@@ -47,6 +47,8 @@
 
   "tooltip.foodupdate.metal_detector.tooltip": "Finds valuables underground!",
   "tooltip.foodupdate.sound_block.tooltip": "Play sound on click!",
+  "entity.minecraft.villager.sound_master": "Sound Master",
+  "entity.minecraft.villager.cook": "Cook",
 
   "advancement.get_mod_advancement": "Food Update",
   "advancement.get_mod_advancement_description": "Thank you for getting our update!",

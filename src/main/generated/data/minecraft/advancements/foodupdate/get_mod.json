@@ -14,7 +14,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:farmland"
     },
     "show_toast": true,
     "title": {
