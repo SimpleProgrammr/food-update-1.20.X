@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "foodupdate:corn"
+    }
+  ],
+  "result": {
+    "count": 6,
+    "item": "foodupdate:corn_seeds"
+  }
+}

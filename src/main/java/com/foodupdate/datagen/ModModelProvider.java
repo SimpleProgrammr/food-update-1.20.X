@@ -1,6 +1,7 @@
 package com.foodupdate.datagen;
 
 import com.foodupdate.block.ModBlocks;
+import com.foodupdate.block.custom.CornCropBlock;
 import com.foodupdate.block.custom.TomatoCropBlock;
 import com.foodupdate.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -39,6 +40,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
 
         blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7, 8);
     }
 
     @Override
@@ -57,6 +59,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RUBY_HOE, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CORN, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.RUBY_CHESTPLATE));

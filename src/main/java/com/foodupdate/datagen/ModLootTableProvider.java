@@ -1,6 +1,7 @@
 package com.foodupdate.datagen;
 
 import com.foodupdate.block.ModBlocks;
+import com.foodupdate.block.custom.CornCropBlock;
 import com.foodupdate.block.custom.TomatoCropBlock;
 import com.foodupdate.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -46,10 +47,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_DOOR, doorDrops(ModBlocks.RUBY_DOOR));
         addDrop(ModBlocks.RUBY_TRAPDOOR);
 
-        BlockStatePropertyLootCondition.Builder builder = BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP)
-                .properties(StatePredicate.Builder.create()
-                        .exactMatch(TomatoCropBlock.AGE, 5));
-        addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS, builder));
+
+        addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS,
+                BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP)
+                        .properties(StatePredicate.Builder.create()
+                                .exactMatch(TomatoCropBlock.AGE, 5)))
+        );
+
+        addDrop(ModBlocks.CORN_CROP, cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS,
+                BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP)
+                        .properties(StatePredicate.Builder.create()
+                                .exactMatch(CornCropBlock.AGE, 8)))
+        );
 
     }
 

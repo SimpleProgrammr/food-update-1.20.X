@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "foodupdate:soundpoi",
+      "required": false
+    },
+    {
+      "id": "foodupdate:cookpoi",
+      "required": false
+    }
+  ]
+}

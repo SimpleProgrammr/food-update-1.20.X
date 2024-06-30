@@ -15,6 +15,7 @@ public class FoodUpdateDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModAdvancementsProvider::new);
+		pack.addProvider(ModPoiTagProvider::new);
 
 	}
 

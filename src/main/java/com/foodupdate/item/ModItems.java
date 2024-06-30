@@ -13,6 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 
+@SuppressWarnings("UnstableApiUsage")
 public class ModItems {
     //Creating Ruby
     public static final Item RUBY = registerItem("ruby",
@@ -56,6 +57,11 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
             new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+
+    public static final Item CORN = registerItem("corn",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
+    public static final Item CORN_SEEDS = registerItem("corn_seeds",
+            new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
 
 
 
