@@ -24,10 +24,10 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
-                        //Adding Special Blocks
+                        //Adding Special block
                         entries.add(ModBlocks.SOUND_BLOCK);
 
-                        //Adding Building Blocks
+                        //Adding Building block
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_STAIRS);
                         entries.add(ModBlocks.RUBY_SLAB);

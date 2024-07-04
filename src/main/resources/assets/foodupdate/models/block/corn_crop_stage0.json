@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "foodupdate:block/corn_crop_stage0"
+  }
+}

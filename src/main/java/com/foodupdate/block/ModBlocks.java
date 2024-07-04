@@ -71,7 +71,7 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        FoodUpdate.LOGGER.info("Registering Mod Blocks for " + FoodUpdate.MOD_ID);
+        FoodUpdate.LOGGER.info("Registering Mod block for " + FoodUpdate.MOD_ID);
 
     }
 }
